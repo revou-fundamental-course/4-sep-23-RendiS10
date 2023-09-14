@@ -1,8 +1,8 @@
 function luaspersegi() {
-  let hitung = document.getElementById("hitung").value;
-  alert("Hasil Perhitungan Luas Persegi adalah = " + hitung * hitung);
+  let inputSisi = document.getElementById("inputSisi").value;
+  alert("Hasil Perhitungan Luas Persegi adalah = " + inputSisi * inputSisi);
 }
 function kelilingpersegi() {
-  let hitung = document.getElementById("hitung").value;
-  alert("Hasil Perhitungan Keliling Persegi adalah = " + 4 * hitung);
+  let inputSisi = document.getElementById("inputSisi").value;
+  alert("Hasil Perhitungan Keliling Persegi adalah = " + 4 * inputSisi);
 }
