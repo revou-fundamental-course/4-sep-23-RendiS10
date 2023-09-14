@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator Persegi</title>
+    <style></style>
+  </head>
+  <body>
+    <h1 class="header">Kalkulator Persegi</h1>
+
+    <div align="center">
+      <img src="./persegi.jpg" width="30%" />
+    </div>
+
+    <h5></h5>
+    <section class="InputSection">
+      <label for="hitung">Sisi persegi</label>
+      <input
+        type="number"
+        name="hitung"
+        id="hitung"
+        placeholder="Masukan Sisi Persegi"
+      />
+    </section>
+    <section class="inputButtonSection">
+      <button onclick="luaspersegi()">Hitung Luas Persegi</button>
+      <button onclick="kelilingpersegi()">Hitung Keliling Persegi</button>
+      <button onclick="reset()">Reset</button>
+    </section>
+    <footer style="text-align: center">
+      <p>Copyright &copy; 2023 Rendi Sutendi</p>
+    </footer>
+    <script src="persegi.js"></script>
+  </body>
+</html>
